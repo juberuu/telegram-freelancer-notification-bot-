@@ -1,0 +1,15 @@
+services:
+  projectbot:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - bot-data:/app/data
+    stop_grace_period: 60s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+volumes:
+  bot-data:

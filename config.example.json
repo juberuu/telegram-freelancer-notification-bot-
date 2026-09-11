@@ -1,0 +1,13 @@
+{
+  "keywords": ["python", "fastapi", "artificial intelligence", "AI", "LLM", "React", "Next.js", "embedded", "STM32", "PLC"],
+  "exclude": [],
+  "min_fixed_usd": 100,
+  "min_hourly_usd": 15,
+  "project_type": "any",
+  "countries": [],
+  "verified_only": false,
+  "max_bids": null,
+  "max_age_minutes": 5,
+  "interval_seconds": 10,
+  "paused": false
+}
